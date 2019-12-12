@@ -109,8 +109,7 @@ for i in r:
     elif(json_response["response_code"]==0):
         if (count_rc0 == 0):
             count_rc0 += 1
-            print(str(count_rc0))
-            print("primo caso countrc0")
+
             file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
