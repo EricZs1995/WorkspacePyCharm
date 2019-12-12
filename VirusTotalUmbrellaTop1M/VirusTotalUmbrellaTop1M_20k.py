@@ -56,7 +56,7 @@ file_w2.write("{")
 
 start = datetime.now()
 for i in r:
-    time.sleep(15)
+    time.sleep(0.06)
     print(i)
     params_d = {'apikey' : api_k,'resource' : list_domain[i]}
     response = requests.get(url,params=params_d)
