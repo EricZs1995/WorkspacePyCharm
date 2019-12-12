@@ -53,7 +53,7 @@ r = range(0,l)
 #print("{")
 file_w1.write("{")
 file_w2.write("{")
-
+count_rc0 = 0
 start = datetime.now()
 for i in r:
     time.sleep(0.06)
@@ -76,7 +76,7 @@ for i in r:
     '''
     json_response = response.json()
     print(str(json_response["response_code"]))
-    count_rc0=0
+
     #agg controllo if(positives!=0)->stampa
     
    # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
@@ -109,6 +109,8 @@ for i in r:
     elif(json_response["response_code"]==0):
         if (count_rc0 == 0):
             count_rc0 += 1
+            print(str(count_rc0))
+            print("primo caso countrc0")
             file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
@@ -124,13 +126,13 @@ for i in r:
             file_w1.close()
             file_w2.close()
         elif (i != (l - 1)):
-            file_w2.write(",\"" + json_response["resource"] + "\" : [{ " +
+            file_w2.write("," + "\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(0) +
                           "}] \n")
         else:
-            file_w2.write(",\"" +json_response["resource"]+ "\" : [{ " +
+            file_w2.write("," + " \"" +json_response["resource"]+ "\" : [{ " +
               "\"score\" :" + str(0) + "," + 
               "\"status response\" :" + str(code)+ "," +
               "\"total\" :" + str(0)+
