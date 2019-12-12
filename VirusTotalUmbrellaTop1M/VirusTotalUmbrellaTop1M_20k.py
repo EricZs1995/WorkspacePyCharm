@@ -76,6 +76,7 @@ for i in r:
     '''
     json_response = response.json()
     print(str(json_response["response_code"]))
+    count_rc0=0
     #agg controllo if(positives!=0)->stampa
     
    # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
@@ -106,14 +107,30 @@ for i in r:
 
             #print("}")
     elif(json_response["response_code"]==0):
-        if(i != (l-1)):
-            file_w2.write("\"" +json_response["resource"]+ "\" : [{ " +
-              "\"score\" :" + str(0) + "," + 
-              "\"status response\" :" + str(code)+ "," +
-              "\"total\" :" + str(0) +
-              "}], \n")
+        if (count_rc0 == 0):
+            count_rc0 += 1
+            file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
+                          "\"score\" :" + str(0) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(0) +
+                          "}] \n")
+        elif(count_rc0 == 0 and i==l):
+            file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
+                          "\"score\" :" + str(0) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(0) +
+                          "}] } \n")
+            file_w1.write("}")
+            file_w1.close()
+            file_w2.close()
+        elif (i != (l - 1)):
+            file_w2.write(",\"" + json_response["resource"] + "\" : [{ " +
+                          "\"score\" :" + str(0) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(0) +
+                          "}] \n")
         else:
-            file_w2.write("\"" +json_response["resource"]+ "\" : [{ " +
+            file_w2.write(",\"" +json_response["resource"]+ "\" : [{ " +
               "\"score\" :" + str(0) + "," + 
               "\"status response\" :" + str(code)+ "," +
               "\"total\" :" + str(0)+
