@@ -6,27 +6,27 @@ import sys
 import os
 from datetime import datetime
 
-#path del file csv da passare da cli
+# path del file csv da passare da cli
 path = sys.argv[1]
 api_k = sys.argv[2]
-#api_k2 = "fae96d02d8cd785865fd47a8387e3e3aff6e093c87ca7fe680cff7faa950d052"
-#api_k = 'd382a8e4d5fd158e379537e3ce80de990d34ac864ece215d991ff6dfd261915e'
+# api_k2 = "fae96d02d8cd785865fd47a8387e3e3aff6e093c87ca7fe680cff7faa950d052"
+# api_k = 'd382a8e4d5fd158e379537e3ce80de990d34ac864ece215d991ff6dfd261915e'
 url = 'https://www.virustotal.com/vtapi/v2/url/report'
 
-#path ="/Volumes/PEPPE_DT/UmbrellaTop1M/top-1m.csv"
-#path = "/Volumes/PEPPE_DT/umbrellasplit/xaa.csv"
+# path ="/Volumes/PEPPE_DT/UmbrellaTop1M/top-1m.csv"
+# path = "/Volumes/PEPPE_DT/umbrellasplit/xaa.csv"
 
 dirName = os.path.basename(path)
 basename = dirName.split("/")
 name_json = basename[-1]
 
 
-#crazione di lista di lista
-with open(path,'r') as csvF:
-    csv_reader= csv.reader(csvF,delimiter=',')
+# crazione di lista di lista
+with open(path, 'r') as csvF:
+    csv_reader = csv.reader(csvF, delimiter=',')
     list_domain = list(csv_reader)
     
-#print(len(list_domain))
+# print(len(list_domain))
 
 
 '''
@@ -41,24 +41,25 @@ print( "Dominio:" + json_response["resource"] + ", Positivies:" + str(json_respo
 '''
 
 
-file_w1 = open(name_json + "_filter.json" , "w+")
-file_w2 = open(name_json + "_204_error.json" , "w+")
+file_w1 = open(name_json + "_filter.json", "w+")
+file_w2 = open(name_json + "_204_error.json", "w+")
 
 
-l=len(list_domain)
-#l = 10
-r = range(0,l)
+l = len(list_domain)
+# l = 10
+r = range(0, l)
 
-#print(r)
-#print("{")
+# print(r)
+# print("{")
 file_w1.write("{")
 file_w2.write("{")
 count_rc0 = 0
+count_first200 = 0
 start = datetime.now()
 for i in r:
     time.sleep(0.06)
     print(i)
-    params_d = {'apikey' : api_k,'resource' : list_domain[i]}
+    params_d = {'apikey': api_k, 'resource': list_domain[i]}
     response = requests.get(url,params=params_d)
     code=response.status_code
     print(response.status_code)
@@ -77,10 +78,10 @@ for i in r:
     json_response = response.json()
     print(str(json_response["response_code"]))
 
-    #agg controllo if(positives!=0)->stampa
+    # agg controllo if(positives!=0)->stampa
     
    # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
-    if(code==204):
+    if(code == 204):
         par = "}"
         #print("}")
         file_w1.write(par)
@@ -89,23 +90,39 @@ for i in r:
         file_w2.close()
         exit()
     elif(code == 200 and json_response["response_code"] != 0):
-        if(i != (l-1)):
-            file_w1.write("\"" +json_response["resource"]+ "\" : [{ " +
+        if(count_first200 == 0):
+            count_first200 += 1
+            file_w1.write("\"" + json_response["resource"] + "\" : [{ " +
+                          "\"score\" :" + str(json_response["positives"]) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(json_response["total"]) +
+                          "}] \n")
+        elif(count_first200 == 0 and i==l):
+            file_w1.write("\"" + json_response["resource"] + "\" : [{ " +
+                          "\"score\" :" + str(json_response["positives"]) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(json_response["total"]) +
+                          "}] } \n")
+            file_w2.write("}")
+            file_w1.close()
+            file_w2.close()
+        elif(i != (l-1)):
+            file_w1.write(", \"" + json_response["resource"] + "\" : [{ " +
               "\"score\" :" + str(json_response["positives"]) + "," +
-              "\"status response\" :" + str(code)+ "," +
+              " \"status response\" : " + str(code) + "," +
               "\"total\" :" + str(json_response["total"]) +
-              "}], \n")
+              "}] \n")
         else:
-            file_w1.write("\"" +json_response["resource"]+ "\" : [{ " +
+            file_w1.write(", \"" + json_response["resource"]+ "\" : [{ " +
               "\"score\" :" + str(json_response["positives"]) + "," + 
-              "\"status response\" :" + str(code)+ "," + 
-              "\"total\" :" + str(json_response["total"])+
+              "\"status response\" :" + str(code) + "," +
+              "\"total\" :" + str(json_response["total"]) +
               "}] } \n")
             file_w2.write("}")
             file_w1.close()
             file_w2.close()
 
-            #print("}")
+            # print("}")
     elif(json_response["response_code"]==0):
         if (count_rc0 == 0):
             count_rc0 += 1
@@ -131,20 +148,20 @@ for i in r:
                           "\"total\" :" + str(0) +
                           "}] \n")
         else:
-            file_w2.write("," + " \"" +json_response["resource"]+ "\" : [{ " +
+            file_w2.write("," + " \"" + json_response["resource"] + "\" : [{ " +
               "\"score\" :" + str(0) + "," + 
-              "\"status response\" :" + str(code)+ "," +
-              "\"total\" :" + str(0)+
+              "\"status response\" :" + str(code) + "," +
+              "\"total\" :" + str(0) +
               "}] } \n")
             file_w1.write("}")
             file_w1.close()
             file_w2.close()
-            #print("}")
+            # print("}")
     else:
         file_w1.write("} \n")
         file_w2.write("} \n")
-        #print("}")
-        #print(code)
+        # print("}")
+        # print(code)
         file_w1.close()
         file_w2.close()
         exit()
@@ -152,7 +169,7 @@ for i in r:
 end = datetime.now()
 
 print('Duration: {}'.format(end - start))
-#print("}")
+# print("}")
 
 
 
