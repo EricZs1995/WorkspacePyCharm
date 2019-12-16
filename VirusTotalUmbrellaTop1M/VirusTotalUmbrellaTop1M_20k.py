@@ -61,7 +61,7 @@ for i in r:
     print(i)
     params_d = {'apikey': api_k, 'resource': list_domain[i]}
     #dominio vuoto
-    if ( list_domain == "" ):
+    if ( list_domain[i] == "" ):
         continue
     response = requests.get(url,params=params_d)
     code=response.status_code
