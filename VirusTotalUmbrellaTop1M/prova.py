@@ -16,8 +16,9 @@ i=0
 
 
 for j in r:
-    if ( list_domain[j] == " "):
-        break
+    print(str(i))
+    if ( len( list_domain[j] )== 0):
+        continue
     print("i:" + str(i) + ", nome dominio :" + str(list_domain[j]) + " tipo 0:" + str(type(list_domain[j])))
     i += 1
 

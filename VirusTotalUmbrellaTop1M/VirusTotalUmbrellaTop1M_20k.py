@@ -57,8 +57,8 @@ count_rc0 = 0
 count_first200 = 0
 start = datetime.now()
 for i in r:
-    if ( list_domain[i] == " "):
-        break
+    if ( len(list_domain[i]) == 0):
+        continue
     time.sleep(0.06)
     print(i)
     params_d = {'apikey': api_k, 'resource': list_domain[i]}
