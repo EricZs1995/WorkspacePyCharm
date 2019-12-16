@@ -51,8 +51,8 @@ r = range(0, l)
 
 # print(r)
 # print("{")
-file_w1.write("{")
-file_w2.write("{")
+file_w1.write("{ \n")
+file_w2.write("{ \n")
 count_rc0 = 0
 count_first200 = 0
 start = datetime.now()
@@ -106,7 +106,8 @@ for i in r:
                           "\"score\" :" + str(json_response["positives"]) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(json_response["total"]) +
-                          "}] } \n")
+                          "}]  \n")
+            file_w1.write("}")
             file_w2.write("}")
             file_w1.close()
             file_w2.close()
@@ -121,7 +122,8 @@ for i in r:
               "\"score\" :" + str(json_response["positives"]) + "," + 
               "\"status response\" :" + str(code) + "," +
               "\"total\" :" + str(json_response["total"]) +
-              "}] } \n")
+              "}] \n")
+            file_w1.write("}")
             file_w2.write("}")
             file_w1.close()
             file_w2.close()
@@ -141,7 +143,8 @@ for i in r:
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(0) +
-                          "}] } \n")
+                          "}] \n")
+            file_w2.write("}")
             file_w1.write("}")
             file_w1.close()
             file_w2.close()
@@ -156,7 +159,8 @@ for i in r:
               "\"score\" :" + str(0) + "," + 
               "\"status response\" :" + str(code) + "," +
               "\"total\" :" + str(0) +
-              "}] } \n")
+              "}]\n")
+            file_w2.write("}")
             file_w1.write("}")
             file_w1.close()
             file_w2.close()
