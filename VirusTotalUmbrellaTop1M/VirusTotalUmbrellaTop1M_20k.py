@@ -57,12 +57,13 @@ count_rc0 = 0
 count_first200 = 0
 start = datetime.now()
 for i in r:
+    if ( list_domain[i] == " "):
+        break
     time.sleep(0.06)
     print(i)
     params_d = {'apikey': api_k, 'resource': list_domain[i]}
     #dominio vuoto
-    if ( list_domain[i] == "" ):
-        continue
+
     response = requests.get(url,params=params_d)
     code=response.status_code
     print(response.status_code)
