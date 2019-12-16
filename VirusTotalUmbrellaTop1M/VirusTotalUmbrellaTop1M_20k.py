@@ -60,6 +60,9 @@ for i in r:
     time.sleep(0.06)
     print(i)
     params_d = {'apikey': api_k, 'resource': list_domain[i]}
+    #dominio vuoto
+    if ( list_domain == "" ):
+        continue
     response = requests.get(url,params=params_d)
     code=response.status_code
     print(response.status_code)
@@ -113,7 +116,7 @@ for i in r:
               "\"total\" :" + str(json_response["total"]) +
               "}] \n")
         else:
-            file_w1.write(", \"" + json_response["resource"]+ "\" : [{ " +
+            file_w1.write(", \"" + json_response["resource"] + "\" : [{ " +
               "\"score\" :" + str(json_response["positives"]) + "," + 
               "\"status response\" :" + str(code) + "," +
               "\"total\" :" + str(json_response["total"]) +
