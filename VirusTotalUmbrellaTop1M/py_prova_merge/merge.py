@@ -43,7 +43,7 @@ for each file in "csv_204_error_folder"
 import os
 import shutil
 
-path = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/prova_merge"
+path = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge"
 path = os.path.relpath(path)
 # print(path)
 

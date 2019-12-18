@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/py_prova_merge/merge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xan.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xan.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xao.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xao.csv_204_error.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xao.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xao.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/merge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
