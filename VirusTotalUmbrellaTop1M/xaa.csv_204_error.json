@@ -1,4 +1,5 @@
-{"us-east4-gcp.api.snapchat.com" : [{ "score" :0,"status response" :200,"total" :0}], 
+{
+  "us-east4-gcp.api.snapchat.com" : [{ "score" :0,"status response" :200,"total" :0}],
 "commnat-main-gc.ess.apple.com" : [{ "score" :0,"status response" :200,"total" :0}], 
 "commnat-cohort-gc.ess.apple.com" : [{ "score" :0,"status response" :200,"total" :0}], 
 "ls4-apple.com.akadns.net" : [{ "score" :0,"status response" :200,"total" :0}], 

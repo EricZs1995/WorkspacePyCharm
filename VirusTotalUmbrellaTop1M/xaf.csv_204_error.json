@@ -1,4 +1,5 @@
-{"edge-058.uschi.icloud-content.com" : [{ "score" :0,"status response" :200,"total" :0}] 
+{
+  "edge-058.uschi.icloud-content.com" : [{ "score" :0,"status response" :200,"total" :0}]
 ,"gew1-accesspoint-a-fzkl.ap.spotify.com" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"gew1-accesspoint-a-h1nl.ap.spotify.com" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"westus2cns-31.westus2.cloudapp.azure.com" : [{ "score" :0,"status response" :200,"total" :0}] 
@@ -2135,4 +2136,5 @@
 ,"mktgcdn.com.cdn.cloudflare.net" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"r2---sn-8qj-i2iez.googlevideo.com" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"tanuszonesvr.ingrammicro.com" : [{ "score" :0,"status response" :200,"total" :0}] 
-, "ujm.hansel.io" : [{ "score" :0,"status response" :200,"total" :0}] } 
+, "ujm.hansel.io" : [{ "score" :0,"status response" :200,"total" :0}]
+}

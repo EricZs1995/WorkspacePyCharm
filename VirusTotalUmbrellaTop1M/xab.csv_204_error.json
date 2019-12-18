@@ -1,4 +1,5 @@
-{"inputs4.nyquist.splunkcloud.com" : [{ "score" :0,"status response" :200,"total" :0}] 
+{
+  "inputs4.nyquist.splunkcloud.com" : [{ "score" :0,"status response" :200,"total" :0}]
 ,"inputs5.nyquist.splunkcloud.com" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"inputs3.nyquist.splunkcloud.com" : [{ "score" :0,"status response" :200,"total" :0}] 
 ,"cld.tracfone.com" : [{ "score" :0,"status response" :200,"total" :0}] 

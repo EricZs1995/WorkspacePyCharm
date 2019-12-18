@@ -1,4 +1,5 @@
-{"www.finance101.com" : [{ "score" :0,"status response" :200,"total" :67}], 
+{
+  "www.finance101.com" : [{ "score" :0,"status response" :200,"total" :67}],
 "avcdn.net.edgesuite.net" : [{ "score" :0,"status response" :200,"total" :66}], 
 "kinoclub77.ru" : [{ "score" :0,"status response" :200,"total" :72}], 
 "nissanhelioseurope.demdex.net" : [{ "score" :0,"status response" :200,"total" :66}], 
@@ -18635,4 +18636,5 @@
 "mathxlforschool.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "savvymoney.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "secureapi.payments.zynga.com" : [{ "score" :0,"status response" :200,"total" :64}], 
-"a2761.casalemedia.com" : [{ "score" :0,"status response" :200,"total" :66}] } 
+"a2761.casalemedia.com" : [{ "score" :0,"status response" :200,"total" :66}]
+}

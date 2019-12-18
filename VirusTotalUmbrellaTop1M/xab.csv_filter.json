@@ -1,4 +1,5 @@
-{"alibaba.com.gds.alibabadns.com" : [{ "score" :0,"status response" :200,"total" :66}], 
+{
+  "alibaba.com.gds.alibabadns.com" : [{ "score" :0,"status response" :200,"total" :66}],
 "assets.jetlore.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "modpim.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "moiafdaws.clo.footprintdns.com" : [{ "score" :0,"status response" :200,"total" :72}], 
@@ -19074,4 +19075,5 @@
 "update.utorrent.com" : [{ "score" :1,"status response" :200,"total" :72}], 
 "f.chtah.com" : [{ "score" :1,"status response" :200,"total" :72}], 
 "locator-service.api.bbci.co.uk" : [{ "score" :0,"status response" :200,"total" :66}], 
-"pubpges.com" : [{ "score" :0,"status response" :200,"total" :72}] } 
+"pubpges.com" : [{ "score" :0,"status response" :200,"total" :72}]
+}

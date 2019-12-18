@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="" />
+    <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaa.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaa.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaa.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaa.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xab.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xab.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xab.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xab.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xac.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xac.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xac.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xac.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xad.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xad.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xad.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xad.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xae.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xae.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xae.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xae.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaf.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaf.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaf.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaf.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xag.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xag.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xag.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xag.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xah.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xah.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xah.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xah.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xai.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xai.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xai.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xai.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaj.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaj.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaj.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaj.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xak.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xak.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xal.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xal.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xal.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xal.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xam.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xam.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xan.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xan.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xao.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xao.csv_filter.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UkyV4W7OxIaYfSmGoCWxy0oHNY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -36,5 +82,16 @@
       <updated>1575914907620</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

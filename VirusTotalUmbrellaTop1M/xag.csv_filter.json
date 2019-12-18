@@ -1,4 +1,5 @@
-{"us-cdn.sd-assets.com" : [{ "score" :0,"status response" :200,"total" :70}] 
+{
+  "us-cdn.sd-assets.com" : [{ "score" :0,"status response" :200,"total" :70}]
 , "us-e36.admanmedia.com" : [{ "score" :0, "status response" : 200,"total" :71}] 
 , "vd6.mycdn.me" : [{ "score" :0, "status response" : 200,"total" :71}] 
 , "walsworthyearbooks.com" : [{ "score" :0, "status response" : 200,"total" :66}] 
@@ -17864,4 +17865,5 @@
 , "static.frontiersin.org" : [{ "score" :0, "status response" : 200,"total" :71}] 
 , "static0-cbrimages-com.cdn.ampproject.org" : [{ "score" :0, "status response" : 200,"total" :66}] 
 , "sync-758-us-west-2.sync.services.mozilla.com" : [{ "score" :0, "status response" : 200,"total" :71}] 
-, "t.resfu.com" : [{ "score" :0,"status response" :200,"total" :66}] } 
+, "t.resfu.com" : [{ "score" :0,"status response" :200,"total" :66}]
+}

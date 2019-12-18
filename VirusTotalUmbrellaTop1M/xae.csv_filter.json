@@ -1,4 +1,5 @@
-{"e7315.a.akamaiedge.net" : [{ "score" :0,"status response" :200,"total" :66}], 
+{
+  "e7315.a.akamaiedge.net" : [{ "score" :0,"status response" :200,"total" :66}],
 "ewr-379.ewr-rtb1.rfihub.com" : [{ "score" :0,"status response" :200,"total" :66}], 
 "fbgt1-2.fna.fbcdn.net" : [{ "score" :0,"status response" :200,"total" :66}], 
 "jungledisk.com" : [{ "score" :0,"status response" :200,"total" :71}], 
@@ -18004,4 +18005,5 @@
 "fbpgames.com" : [{ "score" :0,"status response" :200,"total" :70}], 
 "hellonetcdn.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "ie.trafficland.com" : [{ "score" :0,"status response" :200,"total" :70}], 
-"images.examples.com" : [{ "score" :0,"status response" :200,"total" :71}] } 
+"images.examples.com" : [{ "score" :0,"status response" :200,"total" :71}]
+}

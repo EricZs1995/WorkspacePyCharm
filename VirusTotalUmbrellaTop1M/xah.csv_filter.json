@@ -1,4 +1,5 @@
-{"triggermail.io" : [{ "score" :0,"status response" :200,"total" :66}] 
+{
+  "triggermail.io" : [{ "score" :0,"status response" :200,"total" :66}]
 , "united-integration-elb-189582908.us-east-1.elb.amazonaws.com" : [{ "score" :0, "status response" : 200,"total" :67}] 
 , "update.dyknow.me" : [{ "score" :0, "status response" : 200,"total" :66}] 
 , "us-central1-fantasy-life-android-poll.cloudfunctions.net" : [{ "score" :0, "status response" : 200,"total" :66}] 
@@ -17890,4 +17891,5 @@
 , "www.codefevermiami.com" : [{ "score" :0, "status response" : 200,"total" :67}] 
 , "www.everycaller.com" : [{ "score" :0, "status response" : 200,"total" :68}] 
 , "www.fafsa.ed.gov" : [{ "score" :0, "status response" : 200,"total" :71}] 
-, "www.greatandhra.com" : [{ "score" :0,"status response" :200,"total" :72}] } 
+, "www.greatandhra.com" : [{ "score" :0,"status response" :200,"total" :72}]
+}

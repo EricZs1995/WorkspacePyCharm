@@ -1,4 +1,5 @@
-{"a2765.casalemedia.com" : [{ "score" :0,"status response" :200,"total" :66}], 
+{
+  "a2765.casalemedia.com" : [{ "score" :0,"status response" :200,"total" :66}],
 "a2794.casalemedia.com" : [{ "score" :0,"status response" :200,"total" :66}], 
 "antengo.com" : [{ "score" :0,"status response" :200,"total" :71}], 
 "candycrushjelly.king.com" : [{ "score" :0,"status response" :200,"total" :71}], 
@@ -18544,4 +18545,5 @@
 "www.incontinenceresearch.org" : [{ "score" :0,"status response" :200,"total" :67}], 
 "www.stuff.co.nz" : [{ "score" :0,"status response" :200,"total" :72}], 
 "a7808901045.cdn.optimizely.com" : [{ "score" :0,"status response" :200,"total" :67}], 
-"basket-data.recommend.vpsvc.com" : [{ "score" :0,"status response" :200,"total" :71}] } 
+"basket-data.recommend.vpsvc.com" : [{ "score" :0,"status response" :200,"total" :71}]
+}

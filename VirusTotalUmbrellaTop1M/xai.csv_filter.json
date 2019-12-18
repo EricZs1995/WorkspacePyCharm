@@ -1,4 +1,5 @@
-{"www.marlboro.com" : [{ "score" :0,"status response" :200,"total" :66}] 
+{
+  "www.marlboro.com" : [{ "score" :0,"status response" :200,"total" :66}]
 , "www.meaningfulfunerals.net" : [{ "score" :0, "status response" : 200,"total" :66}] 
 , "www.psycom.net" : [{ "score" :0, "status response" : 200,"total" :72}] 
 , "www.relatably.com" : [{ "score" :0, "status response" : 200,"total" :71}] 
@@ -17997,4 +17998,5 @@
 , "r2---sn-uxmqx2uv4po4v-50ne.googlevideo.com" : [{ "score" :0, "status response" : 200,"total" :64}] 
 , "r2.sn-vgqsrne6.googlevideo.com" : [{ "score" :0, "status response" : 200,"total" :66}] 
 , "r3.whistleout.com" : [{ "score" :0, "status response" : 200,"total" :71}] 
-, "r7---sn-bvvbax-cvns.gvt1.com" : [{ "score" :0,"status response" :200,"total" :67}] } 
+, "r7---sn-bvvbax-cvns.gvt1.com" : [{ "score" :0,"status response" :200,"total" :67}]
+}

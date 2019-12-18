@@ -1,4 +1,5 @@
-{"respond.kaiserpermanente.org" : [{ "score" :0,"status response" :200,"total" :64}] 
+{
+  "respond.kaiserpermanente.org" : [{ "score" :0,"status response" :200,"total" :64}]
 , "retailcrm.pro" : [{ "score" :0, "status response" : 200,"total" :71}] 
 , "roots.com" : [{ "score" :0, "status response" : 200,"total" :72}] 
 , "san3-auth-api.att.com" : [{ "score" :0, "status response" : 200,"total" :64}] 

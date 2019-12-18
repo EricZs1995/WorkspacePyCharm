@@ -55,17 +55,20 @@ file_w1.write("{ \n")
 file_w2.write("{ \n")
 count_rc0 = 0
 count_first200 = 0
+par = "}"
 start = datetime.now()
 for i in r:
-    if ( len(list_domain[i]) == 0):
+    # campo vuoto, list_domain=[]
+    if len(list_domain[i]) == 0:
         continue
+
     time.sleep(0.06)
     print(i)
     params_d = {'apikey': api_k, 'resource': list_domain[i]}
-    #dominio vuoto
+    # dominio vuoto
 
-    response = requests.get(url,params=params_d)
-    code=response.status_code
+    response = requests.get(url, params=params_d)
+    code = response.status_code
     print(response.status_code)
     '''
     if(response.status_code == 204):
@@ -85,52 +88,52 @@ for i in r:
     # agg controllo if(positives!=0)->stampa
     
    # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
-    if(code == 204):
-        par = "}"
-        #print("}")
+    if code == 204:
+
+        # print("}")
         file_w1.write(par)
         file_w2.write(par)
         file_w1.close()
         file_w2.close()
         exit()
-    elif(code == 200 and json_response["response_code"] != 0):
-        if(count_first200 == 0):
+    elif code == 200 and json_response["response_code"] != 0:
+        if count_first200 == 0:
             count_first200 += 1
             file_w1.write("\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(json_response["positives"]) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(json_response["total"]) +
                           "}] \n")
-        elif(count_first200 == 0 and i==l):
+        elif count_first200 == 0 and i == l:
             file_w1.write("\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(json_response["positives"]) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(json_response["total"]) +
                           "}]  \n")
-            file_w1.write("}")
-            file_w2.write("}")
+            file_w1.write(par)
+            file_w2.write(par)
             file_w1.close()
             file_w2.close()
-        elif(i != (l-1)):
+        elif i != (l-1):
             file_w1.write(", \"" + json_response["resource"] + "\" : [{ " +
-              "\"score\" :" + str(json_response["positives"]) + "," +
-              " \"status response\" : " + str(code) + "," +
-              "\"total\" :" + str(json_response["total"]) +
-              "}] \n")
+                          "\"score\" :" + str(json_response["positives"]) + "," +
+                          " \"status response\" : " + str(code) + "," +
+                          "\"total\" :" + str(json_response["total"]) +
+                          "}] \n")
         else:
             file_w1.write(", \"" + json_response["resource"] + "\" : [{ " +
-              "\"score\" :" + str(json_response["positives"]) + "," + 
-              "\"status response\" :" + str(code) + "," +
-              "\"total\" :" + str(json_response["total"]) +
-              "}] \n")
-            file_w1.write("}")
-            file_w2.write("}")
+                          "\"score\" :" + str(json_response["positives"]) + "," +
+                          " \"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(json_response["total"]) +
+                          "}] \n")
+            file_w1.write(par)
+            file_w2.write(par)
             file_w1.close()
             file_w2.close()
 
             # print("}")
-    elif(json_response["response_code"]==0):
-        if (count_rc0 == 0):
+    elif json_response["response_code"] == 0 :
+        if count_rc0 == 0:
             count_rc0 += 1
 
             file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
@@ -138,17 +141,17 @@ for i in r:
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(0) +
                           "}] \n")
-        elif(count_rc0 == 0 and i==l):
+        elif count_rc0 == 0 and i == l:
             file_w2.write("\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
                           "\"total\" :" + str(0) +
                           "}] \n")
-            file_w2.write("}")
-            file_w1.write("}")
+            file_w2.write(par)
+            file_w1.write(par)
             file_w1.close()
             file_w2.close()
-        elif (i != (l - 1)):
+        elif i != (l - 1):
             file_w2.write("," + "\"" + json_response["resource"] + "\" : [{ " +
                           "\"score\" :" + str(0) + "," +
                           "\"status response\" :" + str(code) + "," +
@@ -156,18 +159,18 @@ for i in r:
                           "}] \n")
         else:
             file_w2.write("," + " \"" + json_response["resource"] + "\" : [{ " +
-              "\"score\" :" + str(0) + "," + 
-              "\"status response\" :" + str(code) + "," +
-              "\"total\" :" + str(0) +
-              "}]\n")
-            file_w2.write("}")
-            file_w1.write("}")
+                          "\"score\" :" + str(0) + "," +
+                          "\"status response\" :" + str(code) + "," +
+                          "\"total\" :" + str(0) +
+                          "}] \n")
+            file_w2.write(par)
+            file_w1.write(par)
             file_w1.close()
             file_w2.close()
             # print("}")
     else:
-        file_w1.write("} \n")
-        file_w2.write("} \n")
+        file_w1.write(par + "\n")
+        file_w2.write(par + "\n")
         # print("}")
         # print(code)
         file_w1.close()
