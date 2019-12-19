@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="" />
+    <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaa.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xab.csv_filter.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VirusTotalUmbrellaTop1M" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +52,9 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
