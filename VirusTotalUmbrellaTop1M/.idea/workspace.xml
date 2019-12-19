@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xat.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xat.csv_204_error.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xat.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xat.csv_filter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xau.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xau.csv_204_error.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xau.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xau.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xav.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xav.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xav.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xav.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaw.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaw.csv_204_error.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xaw.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaw.csv_filter.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/py_prova_merge/prova_merge" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
