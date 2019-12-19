@@ -44,6 +44,8 @@ print( "Dominio:" + json_response["resource"] + ", Positivies:" + str(json_respo
 file_w1 = open(name_json + "_filter.json", "w+")
 file_w2 = open(name_json + "_204_error.json", "w+")
 
+# with open(name_json + "_filter.json") as file_w1, open(name_json + "_204_error.json") as file_w2:
+
 
 l = len(list_domain)
 # l = 10
@@ -86,7 +88,7 @@ for i in r:
     print(str(json_response["response_code"]))
 
     # agg controllo if(positives!=0)->stampa
-    
+
    # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
     if code == 204:
 
@@ -176,7 +178,7 @@ for i in r:
         file_w1.close()
         file_w2.close()
         exit()
-        
+
 end = datetime.now()
 
 print('Duration: {}'.format(end - start))

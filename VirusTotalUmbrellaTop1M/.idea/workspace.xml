@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_prova_merge/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_200_error.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaa.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xab.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaa.csv_filter.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
