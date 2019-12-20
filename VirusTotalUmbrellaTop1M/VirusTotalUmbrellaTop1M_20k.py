@@ -84,21 +84,25 @@ with open(name_json + "_filter.json", "w+") as file_w1, open(name_json + "_204_e
         while(response.status_code == 204):
             response = requests.get(url,params=params_d)
         '''
-        json_response = response.json()
-        print(str(json_response["response_code"]))
-
-        # agg controllo if(positives!=0)->stampa
-
-       # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
         if code == 204:
-
-            # print("}")
             file_w1.write(par)
             file_w2.write(par)
             # file_w1.close()
             # file_w2.close()
             exit()
-        elif code == 200 and json_response["response_code"] != 0:
+        else:
+            json_response = response.json()
+            print(str(json_response["response_code"]))
+
+        # json_response = response.json()
+        # print(str(json_response["response_code"]))
+
+        # agg controllo if(positives!=0)->stampa
+
+       # print("N: " + str(i + 1) + "- Dominio: " + json_response["resource"] + ", Total: " + str(json_response["total"]) + ", Positives: " + str(json_response["positives"]))
+
+        if code == 200 and json_response["response_code"] != 0:
+
             if count_first200 == 0:
                 count_first200 += 1
                 file_w1.write("\"" + json_response["resource"] + "\" : [{ " +
@@ -134,7 +138,8 @@ with open(name_json + "_filter.json", "w+") as file_w1, open(name_json + "_204_e
                 # file_w2.close()
 
                 # print("}")
-        elif json_response["response_code"] == 0 :
+        elif json_response["response_code"] == 0:
+
             if count_rc0 == 0:
                 count_rc0 += 1
 
