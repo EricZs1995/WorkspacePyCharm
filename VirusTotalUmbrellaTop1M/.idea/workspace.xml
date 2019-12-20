@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xav.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xav.csv_204_error.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xav.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xav.csv_filter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaw.csv_204_error.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaw.csv_204_error.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaw.csv_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/xaw.csv_filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirusTotalUmbrellaTop1M_20k.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
