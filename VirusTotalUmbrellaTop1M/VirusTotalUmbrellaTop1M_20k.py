@@ -44,7 +44,7 @@ print( "Dominio:" + json_response["resource"] + ", Positivies:" + str(json_respo
 # file_w1 = open(name_json + "_filter.json", "w+")
 # file_w2 = open(name_json + "_204_error.json", "w+")
 
-with open(name_json + "_filter.json", "w+") as file_w1, open(name_json + "_204_error.json", "w+") as file_w2:
+with open("json_scan/" + name_json + "_filter.json", "w+") as file_w1, open("json_scan/" +name_json + "_204_error.json", "w+") as file_w2:
 
 
     l = len(list_domain)
@@ -85,6 +85,7 @@ with open(name_json + "_filter.json", "w+") as file_w1, open(name_json + "_204_e
             response = requests.get(url,params=params_d)
         '''
         if code == 204:
+            print("*** limit of request ended ***")
             file_w1.write(par)
             file_w2.write(par)
             # file_w1.close()
