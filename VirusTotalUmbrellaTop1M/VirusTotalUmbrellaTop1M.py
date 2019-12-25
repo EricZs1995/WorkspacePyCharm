@@ -9,8 +9,7 @@ from datetime import datetime
 #path del file csv da passare da cli
 path = sys.argv[1]
 api_k = sys.argv[2]
-#api_k2 = "fae96d02d8cd785865fd47a8387e3e3aff6e093c87ca7fe680cff7faa950d052"
-#api_k = 'd382a8e4d5fd158e379537e3ce80de990d34ac864ece215d991ff6dfd261915e'
+
 
 
 #path ="/Volumes/PEPPE_DT/UmbrellaTop1M/top-1m.csv"
