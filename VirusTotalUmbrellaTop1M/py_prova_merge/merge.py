@@ -2,6 +2,7 @@ import os
 import shutil
 import json
 import glob
+from jsonmerge import merge
 
 '''
                                     #######"filter_merge"#######
@@ -24,6 +25,9 @@ write a new file "all_204_error.json" with all csv "204_error"
 '''
 
 
+
+
+
 def filter_merge(csv_filter_fold, csv_204_error_fold, string_path_json_filter, string_path_204):
 
     """
@@ -33,20 +37,46 @@ def filter_merge(csv_filter_fold, csv_204_error_fold, string_path_json_filter, s
     :param string_path_204: path where found "all_204_error.json"
     :return:
     """
-
+    '''
     result_filter = []
     for f in glob.glob(csv_filter_fold + "/*.json"):
         with open(f, "r") as infile:
             result_filter.append(json.load(infile))
     with open(string_path_json_filter, "+w") as outfile:
         json.dump(result_filter, outfile, indent=2)
+    
+    '''
+    result_filter = {}
 
-    result_filter_204 = []
+    for f in glob.glob(csv_filter_fold + "/*.json"):
+        with open(f, "rb") as infile:
+            json_data = json.loads(infile.read())
+            result_filter.update(merge(result_filter, json_data))
+
+    with open(string_path_json_filter, "+w") as outfile:
+        json.dump(result_filter, outfile, indent=2)
+
+    result_filter_204 = {}
+
+    '''
     for f in glob.glob(csv_204_error_fold + "/*.json"):
         with open(f, "r") as infile:
             result_filter_204.append(json.load(infile))
     with open(string_path_204, "+w") as outfile:
         json.dump(result_filter_204, outfile, indent=2)
+    '''
+    for f in glob.glob(csv_204_error_fold + "/*.json"):
+        with open(f, "rb") as infile:
+            json_data = json.loads(infile.read())
+            result_filter_204.update(merge(result_filter_204,json_data))
+
+    with open(string_path_204, "+w") as outfile:
+        json.dump(result_filter_204, outfile, indent=2)
+
+
+
+
+
 
 
 '''
@@ -56,7 +86,7 @@ Check with the ground truth (Tranco List)
 
 Aim: calculate the FP rate caused by VirusTotal
 
-- parse json to dictionary:
+- parse json to pandas data frame:
     [
         {
             "nome_dominio": [
@@ -77,10 +107,10 @@ Aim: calculate the FP rate caused by VirusTotal
     |
    \ /
     '
-    { 'nome_dominio' : { 'score': int, 'status': int, 'total': int }}
+   "nome_dominio" | "score" |...
     
     
-- for each entry in the dict -> obtain the key 'nome_dominio' and insert in a new dict {'nome_dom'}
+- for each entry  -> obtain the key 'nome_dominio' and insert in a new dict {'nome_dom'}
 - for entry check the presence in 'tranco.csv' and add 0 or 1 if there is or not (es : {'nome_dom': 0}
 
 '''
