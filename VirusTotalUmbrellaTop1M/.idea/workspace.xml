@@ -4,74 +4,7 @@
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_prova_merge/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_200_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaa.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaa.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xab.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xab.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xac.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xac.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xad.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xad.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xae.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xae.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaf.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaf.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xag.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xag.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xah.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xah.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xai.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xai.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaj.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaj.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xak.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xak.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xal.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xal.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xam.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xam.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xan.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xan.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xao.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xao.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xap.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xap.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaq.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaq.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xar.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xar.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xas.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xas.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xat.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xat.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xau.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xau.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xav.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xav.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaw.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaw.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xax.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xax.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xay.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xay.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaz.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xaz.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xba.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xba.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbb.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbb.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbc.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbc.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbd.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbd.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbe.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbe.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbf.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbf.csv_filter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbh.csv_204_error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xbh.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/pandas_df_prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/pandas_df_prova.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

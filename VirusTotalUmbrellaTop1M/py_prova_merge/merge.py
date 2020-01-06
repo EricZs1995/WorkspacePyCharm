@@ -86,7 +86,7 @@ Check with the ground truth (Tranco List)
 
 Aim: calculate the FP rate caused by VirusTotal
 
-- parse json to pandas data frame:
+- parse json to dict:
     [
         {
             "nome_dominio": [
@@ -107,11 +107,10 @@ Aim: calculate the FP rate caused by VirusTotal
     |
    \ /
     '
-   "nome_dominio" | "score" |...
+  'nome_dominio', [{'score': int, 'status response': int, 'total': int}]
     
     
-- for each entry  -> obtain the key 'nome_dominio' and insert in a new dict {'nome_dom'}
-- for entry check the presence in 'tranco.csv' and add 0 or 1 if there is or not (es : {'nome_dom': 0}
+- for each name in 'tranco' file check if a domain name is in 'all_filter' and have a 'score' > 0 
 
 '''
 

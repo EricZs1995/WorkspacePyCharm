@@ -20,12 +20,27 @@ print(df)
 
 ''' problema file concatenati--> presenza di ',' nel file finale di concatenazione '''
 
-xaa_json = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge/prova_merge/csv_204_error_folder/xaa.csv_204_error.json"
+all_filter_json = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge/prova_merge/all_filter.json"
 
-with open(xaa_json) as file:
+with open(all_filter_json) as file:
     json_data = json.load(file)
 
-print(json_data.items())
+print(type(json_data))
+
+index = []
+for a in json_data.items():
+    index.append(a[0])
+
+'''
+for x in index:
+    print(x)
+'''
+
+
+
+for x in index:
+    for p in json_data[x]:
+        print("domain: " + str(x) + ", score: " + str(p['score']))
 
 
 df = pd.DataFrame.from_dict(json_data)
