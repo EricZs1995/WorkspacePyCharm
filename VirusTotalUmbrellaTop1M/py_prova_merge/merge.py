@@ -47,6 +47,7 @@ def filter_merge(csv_filter_fold, csv_204_error_fold, string_path_json_filter, s
     result_filter = {}
 
     for f in glob.glob(csv_filter_fold + "/*.json"):
+        print(f)
         with open(f, "rb") as infile:
             json_data = json.loads(infile.read())
             result_filter.update(merge(result_filter, json_data))
@@ -54,7 +55,7 @@ def filter_merge(csv_filter_fold, csv_204_error_fold, string_path_json_filter, s
     with open(string_path_json_filter, "+w") as outfile:
         json.dump(result_filter, outfile, indent=2)
 
-    result_filter_204 = {}
+   # result_filter_204 = {}
 
     '''
     for f in glob.glob(csv_204_error_fold + "/*.json"):
@@ -63,13 +64,17 @@ def filter_merge(csv_filter_fold, csv_204_error_fold, string_path_json_filter, s
     with open(string_path_204, "+w") as outfile:
         json.dump(result_filter_204, outfile, indent=2)
     '''
+    '''
     for f in glob.glob(csv_204_error_fold + "/*.json"):
+        print(f)
         with open(f, "rb") as infile:
             json_data = json.loads(infile.read())
             result_filter_204.update(merge(result_filter_204,json_data))
 
     with open(string_path_204, "+w") as outfile:
         json.dump(result_filter_204, outfile, indent=2)
+    
+    '''
 
 
 
@@ -163,13 +168,14 @@ def fp_vt(tranco_csv, all_filter_json):
     print(len(index))
     print(len(fp_dict))
     percent = (len(fp_dict) / len(index))
-    print("% :" + str(percent))
+    print("% :" + str(percent*100))
     maximum = max(score_l)
     print("Max score: " + str(maximum))
 
     for x in range(1, maximum + 1):
         eq = sum(num == x for num in score_l)
         print("Num of score equal to " + str(x) + " is :" + str(eq))
+
 
 if __name__ == "__main__":
 
