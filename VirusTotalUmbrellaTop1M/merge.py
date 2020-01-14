@@ -256,8 +256,9 @@ def fp_vt(tranco_csv, all_filter_json):
 
 
 if __name__ == "__main__":
-    path = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge/prova_merge"
 
+    path = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge/prova_merge"
+    """
     path = os.path.relpath(path)
     # print(path)
 
@@ -278,9 +279,10 @@ if __name__ == "__main__":
             shutil.move(path + "/" + file, csv_filter_folder)
         else:
             shutil.move(path + "/" + file, csv_204_error_folder)
-
+    """
     path_csv_filter_all = path + "/all_filter.json"
     path_csv_204_error = path + "/all_204_error.json"
-    filter_merge(csv_filter_folder, csv_204_error_folder, path_csv_filter_all, path_csv_204_error)
+  #  filter_merge(csv_filter_folder, csv_204_error_folder, path_csv_filter_all, path_csv_204_error)
     tranco_path = "/Volumes/PEPPE_DT/WorkspacePyCharm/VirusTotalUmbrellaTop1M/py_prova_merge/tranco-top-1m.csv"
     fp_vt(tranco_path, path_csv_filter_all)
+

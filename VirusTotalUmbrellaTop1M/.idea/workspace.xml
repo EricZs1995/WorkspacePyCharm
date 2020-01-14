@@ -3,15 +3,107 @@
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/100K_full.csv" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/100K_full.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/100K_vt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/100K_vt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_100k.png" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_100k.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_1m.png" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_1m.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_500k.png" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/img_plot/bar_plot_500k.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/py_prova_merge/prova_merge/all_filter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_prova_merge/tranco_prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/tranco_prova.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaa.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xab.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xac.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xad.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xae.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaf.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xag.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xah.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xai.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaj.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xak.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xal.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xam.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xan.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xao.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xap.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaq.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xar.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xas.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xat.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xau.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xav.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaw.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xax.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xay.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xaz.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xba.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbb.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbc.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbd.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbe.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbf.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbg.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbh.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbi.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbj.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbk.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbl.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbmNONAME.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbn.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbo.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbp.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbq.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbrNONAME.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbs.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbt.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbu.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbv.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbw.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_204_error_folder/xbx.csv_204_error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaa.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xab.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xac.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xad.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xae.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaf.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xag.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xah.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xai.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaj.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xak.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xal.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xam.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xan.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xao.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xap.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaq.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xar.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xas.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xat.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xau.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xav.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaw.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xax.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xay.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xaz.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xba.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbb.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbc.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbd.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbe.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbf.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbg.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbh.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbi.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbj.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbk.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbl.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbmNONAME.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbn.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbo.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbp.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbq.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbrNONAME.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbs.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbt.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbu.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbv.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbw.csv_filter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_prova_merge/prova_merge/csv_filter_folder/xbx.csv_filter.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
