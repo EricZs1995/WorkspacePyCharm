@@ -6,7 +6,8 @@ import requests
 import sys
 import time
 
-def fun():
+
+def run():
     path_csv_20 = sys.argv[1]
     api_key_in = sys.argv[2]
     url = 'https://www.virustotal.com/vtapi/v2/url/report'
@@ -191,9 +192,10 @@ def fun():
             #    break
             time.sleep(0.07)
 
+
 if __name__ == "__main__":
     start = datetime.now()
-    fun()
+    run()
     end = datetime.now()
 
     print('Duration: {}'.format(end - start))

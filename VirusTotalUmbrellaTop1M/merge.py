@@ -123,7 +123,7 @@ def fp_vt(tranco_csv, all_filter_json):
     :return:
     """
     with open(all_filter_json) as file_json:
-        json_data = json.load(file_json)
+        json_data = json.loads(file_json)
 
     '''
     list of domain name scanned (key values of dict 'json_data')
