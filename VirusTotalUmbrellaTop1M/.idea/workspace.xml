@@ -2,17 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco100k.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco1m.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco500k.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagev2/lineplot_det.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_to_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mergecsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vt_csvanalyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vt_tranco_info&amp;plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/._xaa.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/._xab.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/._xac.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xaa.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xab.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xac.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xae.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xaf.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xag.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xaj.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xak.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xao.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xat.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xau.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xax.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbd.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbh.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbk.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbl.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbq.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbr.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbw.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Umbrella_scanVT_V2/xbx.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_domain_positives_not_null/1m_full.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_domain_positives_not_null/1m_full_20K1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_domain_positives_not_null/1m_full_20K2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_domain_positives_not_null/1m_full_20K3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_domain_positives_not_null/1m_full_20K4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_info.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_merge_prova_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info_scan_allVT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info_scan_allVT_new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nomi_scan_vt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restrict_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv100k/._100k.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv100k/100k.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv1m/._1m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv1m/1m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv500k/._500k.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csv500k/500k.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/merge_py_1m/all_info/._all_info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prova.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579195771900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new scritp to translate response by VT in csv">
+      <created>1579643679915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579643679915</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new scritp to translate response by VT in csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new scritp to translate response by VT in csv" />
+    <MESSAGE value="add new script to mange the scan in csv; script to retrieve data, manage and plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new script to mange the scan in csv; script to retrieve data, manage and plotting" />
   </component>
 </project>
