@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b4cbf5-f45e-45ce-8061-69a666293284" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco100k.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco1m.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagev2/barFullTranco500k.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagev2/lineplot_det.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_to_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergecsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_csvanalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vt_tranco_info&amp;plotting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge_py_1m/all_info/._all_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/merge_py_1m/all_info/._all_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge_py_1m/all_info/all_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/merge_py_1m/all_info/all_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ret_info_badvt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ret_info_badvt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_py_1m/all_info/._all_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prova.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575914907620</updated>
     </task>
+    <task id="LOCAL-00001" summary="add new scritp to translate response by VT in csv">
+      <created>1579195771899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579195771900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,14 +102,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Umbrella_scanVT_toCsv.py</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new scritp to translate response by VT in csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new scritp to translate response by VT in csv" />
   </component>
 </project>
